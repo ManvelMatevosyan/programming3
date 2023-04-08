@@ -6,7 +6,7 @@ class Grass extends LeavingCreauture{
     
     }
     
-
+//qgftyf
     chooseCell(char,char1){
          let found = []
 

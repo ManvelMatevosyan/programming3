@@ -1,4 +1,5 @@
-class LeavingCreauture{
+
+module.export = class LeavingCreauture{
     constructor(){
         this.x = x
         this.y = y

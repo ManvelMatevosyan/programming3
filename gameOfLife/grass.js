@@ -1,4 +1,5 @@
-class Grass extends LeavingCreauture{
+let LeavingCreauture = require("./LeavingCreature")
+module.export = class Grass extends LeavingCreauture{
     constructor(x,y){
         super(x,y)
         this.multiply = 0

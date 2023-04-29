@@ -1,0 +1,42 @@
+canvas {
+    margin-left: 33%;
+    margin-top: 10%;
+}
+body{
+    background: rgb(2,0,36);
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(195,16,102,1) 42%, rgba(0,212,255,1) 83%); */
+    background: linear-gradient(to right,#e302f3, #00aaff);
+}
+
+h1{
+    text-shadow: black 2px 2px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+h2{
+    text-shadow: black 2px 2px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: #dddddd;
+}

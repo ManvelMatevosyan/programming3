@@ -1,0 +1,110 @@
+
+div{
+    position: relative;
+    width: 1191px;
+    height: 50px;
+    background-color: #34495e;
+    border-radius: 8px;
+    font-size: 0;
+  }
+  a{
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+  .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+  }
+  a:nth-child(1){
+    width: 100px;
+  }
+  a:nth-child(2){
+    width: 110px;
+  }
+  a:nth-child(3){
+    width: 100px;
+  }
+  a:nth-child(4){
+    width: 160px;
+  }
+  a:nth-child(5){
+    width: 120px;
+  }
+  a:nth-child(6){
+    width: 110px;
+  }
+  a:nth-child(7){
+    width: 120px;
+  }
+  a:nth-child(8){
+    width: 160px;
+  }
+  a:nth-child(9){
+    width: 100px;
+  }
+  a:nth-child(10){
+    width: 100px;
+  }
+  .start-home, a:nth-child(1):hover~.animation{
+    width: 100px;
+    left: 0;
+    background-color: #01c001;
+  }
+  .start-about, a:nth-child(2):hover~.animation{
+    width: 110px;
+    left: 100px;
+    background-color: #c8d600;
+  }
+  .start-blog, a:nth-child(3):hover~.animation{
+    width: 100px;
+    left: 210px;
+    background-color: #ff0000;
+  }
+  .start-portefolio, a:nth-child(4):hover~.animation{
+    width: 160px;
+    left: 310px;
+    background-color: #000000;
+  }
+  .start-contact, a:nth-child(5):hover~.animation{
+    width: 120px;
+    left: 470px;
+    background-color: #8a8a8a;
+  }
+  .start-contact, a:nth-child(6):hover~.animation{
+    width: 120px;
+    left: 580px;
+    background-color: #abd102;
+  }
+  .start-contact, a:nth-child(7):hover~.animation{
+    width: 120px;
+    left: 695px;
+    background-color: #00bbff;
+  }
+  .start-contact, a:nth-child(8):hover~.animation{
+    width: 120px;
+    left: 830px;
+    background-color: #9900ff;
+  }
+  .start-contact, a:nth-child(9):hover~.animation{
+    width: 100px;
+    left: 990px;
+    background-color: #e8d9df;
+  }
+  .start-contact, a:nth-child(10):hover~.animation{
+    width: 100px;
+    left: 1100px;
+    background-color: #000000;
+  }
